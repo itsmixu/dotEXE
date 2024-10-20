@@ -1,14 +1,15 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DotEXELogin : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private GameObject background;
     [SerializeField] GameObject welcomeText;
     [SerializeField] GameObject chanceText;
     [SerializeField] GameObject joinText;
     [SerializeField] GameObject joinButton;
+    
 
     [Header("Level Loader")]
     [SerializeField] private LevelLoader levelLoader;

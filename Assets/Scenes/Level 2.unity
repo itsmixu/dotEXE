@@ -63440,7 +63440,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 736002591}
-  m_VersionIndex: 11423
+  m_VersionIndex: 11426
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -69005,52 +69005,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2258760817814987853, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2258760817814987853, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2258760817814987853, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2258760818007956818, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2258760818007956818, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2258760818365684911, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2258760818365684911, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2258760818365684911, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2258760818514232370, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2258760818608578303, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2258760818608578303, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2258760819618496796, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -69067,6 +69023,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b35cf8f9a1b533247a743f91a33f3610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2258760819565158028 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5490257888055612758, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
+  m_PrefabInstance: {fileID: 2258760819565158026}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07bd0979a8e4f5c4a81812f22014466f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2437381229048190460
@@ -69107,7 +69074,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8641216013737811866, guid: d17e3f8e84bb79844b35a4bbd9533990, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30
+      value: 29.81
       objectReference: {fileID: 0}
     - target: {fileID: 8641216013737811866, guid: d17e3f8e84bb79844b35a4bbd9533990, type: 3}
       propertyPath: m_LocalPosition.z
@@ -69298,15 +69265,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8058523277720641591, guid: 4d16bbeb215efd341bc6cfcfaeffcf3a, type: 3}
       propertyPath: soundList.Array.size
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8058523277720641591, guid: 4d16bbeb215efd341bc6cfcfaeffcf3a, type: 3}
       propertyPath: soundList.Array.data[3].name
-      value: PC_BOOT
+      value: DEATH
       objectReference: {fileID: 0}
     - target: {fileID: 8058523277720641591, guid: 4d16bbeb215efd341bc6cfcfaeffcf3a, type: 3}
       propertyPath: soundList.Array.data[4].name
-      value: PC_SHUTDOWN
+      value: PC_BOOT
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058523277720641591, guid: 4d16bbeb215efd341bc6cfcfaeffcf3a, type: 3}
+      propertyPath: soundList.Array.data[5].sounds.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058523277720641591, guid: 4d16bbeb215efd341bc6cfcfaeffcf3a, type: 3}
+      propertyPath: soundList.Array.data[6].sounds.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058523277720641591, guid: 4d16bbeb215efd341bc6cfcfaeffcf3a, type: 3}
+      propertyPath: soundList.Array.data[7].sounds.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058523277720641591, guid: 4d16bbeb215efd341bc6cfcfaeffcf3a, type: 3}
+      propertyPath: soundList.Array.data[8].sounds.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058523277720641591, guid: 4d16bbeb215efd341bc6cfcfaeffcf3a, type: 3}
+      propertyPath: soundList.Array.data[9].sounds.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8058523278048003153, guid: 4d16bbeb215efd341bc6cfcfaeffcf3a, type: 3}
       propertyPath: consoleText
@@ -69333,6 +69320,10 @@ PrefabInstance:
       propertyPath: levelLoader
       value: 
       objectReference: {fileID: 762841997}
+    - target: {fileID: 7765125202807022885, guid: 8fcb0f62132be3448913acd069429d87, type: 3}
+      propertyPath: healthEffect
+      value: 
+      objectReference: {fileID: 2258760819565158028}
     - target: {fileID: 7765125202807022887, guid: 8fcb0f62132be3448913acd069429d87, type: 3}
       propertyPath: cam
       value: 

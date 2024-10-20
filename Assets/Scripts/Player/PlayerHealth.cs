@@ -23,6 +23,9 @@ public class PlayerHealth : MonoBehaviour
     [Header("GreenFX")]
     [SerializeField] private GameObject greenFX;
 
+    [Header("UI Health Effect")]
+    [SerializeField] private HealthEffect healthEffect;
+
     [Header("Level Loader")]
     [SerializeField] private LevelLoader levelLoader;
 
@@ -73,6 +76,7 @@ public class PlayerHealth : MonoBehaviour
                 UpdateVignette();
 
                 Instantiate(greenFX, other.transform.position, Quaternion.identity);
+                healthEffect.PlayHealthEffect();
                 Destroy(other.gameObject);
 
                 damageApplied = true;

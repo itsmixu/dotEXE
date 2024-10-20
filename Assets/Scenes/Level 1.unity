@@ -11030,6 +11030,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2258760819565158030 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5490257888055612758, guid: 8397cda69f5cb0046b5cbc13712da83c, type: 3}
+  m_PrefabInstance: {fileID: 2258760819565158026}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07bd0979a8e4f5c4a81812f22014466f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2437381229048190460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11310,6 +11321,10 @@ PrefabInstance:
       propertyPath: levelLoader
       value: 
       objectReference: {fileID: 762841997}
+    - target: {fileID: 7765125202807022885, guid: 8fcb0f62132be3448913acd069429d87, type: 3}
+      propertyPath: healthEffect
+      value: 
+      objectReference: {fileID: 2258760819565158030}
     - target: {fileID: 7765125202807022887, guid: 8fcb0f62132be3448913acd069429d87, type: 3}
       propertyPath: cam
       value: 
