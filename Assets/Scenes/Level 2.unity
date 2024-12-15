@@ -32487,7 +32487,7 @@ GameObject:
   - component: {fileID: 492688613}
   - component: {fileID: 492688612}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: Cubes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37298,12 +37298,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492688611}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -2, z: -0}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1772024122}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &537744965 stripped
 MonoBehaviour:
@@ -65910,6 +65910,7 @@ Transform:
   - {fileID: 935239731}
   - {fileID: 1781080654}
   - {fileID: 435545518}
+  - {fileID: 492688614}
   - {fileID: 62215811}
   - {fileID: 585277506}
   - {fileID: 1850400395}
@@ -69401,4 +69402,3 @@ SceneRoots:
   - {fileID: 2145595942}
   - {fileID: 8058523277466371911}
   - {fileID: 2258760819565158026}
-  - {fileID: 492688614}
